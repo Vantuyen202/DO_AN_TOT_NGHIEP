@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F26K22 -DL -O11111114 -fo16 -N"C:\Users\nguye\OneDrive\This PC\Do AN\rs485\pic18f_pic16f\Master.mcppi" -SP"D:\Program Files\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"D:\Program Files\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\nguye\OneDrive\This PC\Do AN\rs485\pic18f_pic16f\" -IP"D:\Program Files\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -IP"C:\Users\nguye\OneDrive\This PC\Do AN\rs485\pic18f_pic16f\" "Master.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Button.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_K22_B.mcl" "__Lib_EEPROM_1024.mcl" "__Lib_UART_c67b67.mcl" "__Lib_CANSPI.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl"	 
+hint: 0	1139	Available RAM: 3875 [bytes], Available ROM: 65536 [bytes]	 
+diagnostics: 0	122	Compilation Started	stdbool.h
+diagnostics: 744	123	Compiled Successfully	Master.c
+diagnostics: 0	127	All files Compiled in 187 ms	 
+hint: 0	1144	Used RAM (bytes): 1218 (31%)  Free RAM (bytes): 2657 (69%)	Used RAM (bytes): 1218 (31%)  Free RAM (bytes): 2657 (69%)
+hint: 0	1144	Used ROM (bytes): 14767 (23%)  Free ROM (bytes): 50769 (77%)	Used ROM (bytes): 14767 (23%)  Free ROM (bytes): 50769 (77%)
+diagnostics: 0	125	Project Linked Successfully	Master.mcppi
+diagnostics: 0	128	Linked in 188 ms	 
+diagnostics: 0	129	Project 'Master.mcppi' completed: 422 ms	 
+diagnostics: 0	103	Finished successfully: 03 Jan 2020, 01:16:00	Master.mcppi

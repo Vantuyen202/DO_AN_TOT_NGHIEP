@@ -1,0 +1,22 @@
+main
+	__CC2DW
+	UART1_Init
+	RS485Slave_Init
+	InitTimer1
+	max7219_init
+		max7219
+			SPI_Write_Byte
+	dislay
+		max7219
+			SPI_Write_Byte
+	AM2302_Read
+	processValue1
+		Div_16X16_U
+		max7219
+			SPI_Write_Byte
+	Div_16X16_U
+	RS485Slave_Send
+		____DoIFC
+interrupt
+	RS485Slave_Receive
+		____DoIFC
